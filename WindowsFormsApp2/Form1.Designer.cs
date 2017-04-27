@@ -56,6 +56,7 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -331,10 +332,28 @@
             this.listBox1.TabIndex = 23;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 12;
+            this.listBox2.Items.AddRange(new object[] {
+            "a",
+            "b ",
+            "c ",
+            "8 ",
+            "A ",
+            "B ",
+            "C"});
+            this.listBox2.Location = new System.Drawing.Point(389, 272);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(37, 40);
+            this.listBox2.TabIndex = 24;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(578, 477);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.richTextBox2);
@@ -399,6 +418,7 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox2;
     }
 }
 
