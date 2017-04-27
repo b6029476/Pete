@@ -111,7 +111,7 @@ namespace WindowsFormsApp2
                 int index = Convert.ToInt16(ClickCount);
                 richTextBox2.AppendText(listBox1.Items[index].ToString());
                 //resets the click count so it can loop again boi
-                if (ClickCount == 2)
+                if (ClickCount == 6)
                 {
                     ClickCount = -1;
                 }
@@ -130,7 +130,7 @@ namespace WindowsFormsApp2
                 int index = Convert.ToInt16(ClickCount);
                 richTextBox2.AppendText(listBox2.Items[index].ToString());
                 //resets the click count so it can loop again boi
-                if (ClickCount == 2)
+                if (ClickCount == 6)
                 {
                     ClickCount = -1;
                 }
@@ -155,7 +155,7 @@ namespace WindowsFormsApp2
                     int index = Convert.ToInt16(ClickCount);
                     richTextBox2.AppendText(listBox3.Items[index].ToString());
                     //resets the click count so it can loop again boi
-                    if (ClickCount == 2)
+                    if (ClickCount == 6)
                     {
                         ClickCount = -1;
                     }
@@ -181,7 +181,7 @@ namespace WindowsFormsApp2
                     int index = Convert.ToInt16(ClickCount);
                     richTextBox2.AppendText(listBox4.Items[index].ToString());
                     //resets the click count so it can loop again boi
-                    if (ClickCount == 2)
+                    if (ClickCount == 6)
                     {
                         ClickCount = -1;
                     }
@@ -202,7 +202,7 @@ namespace WindowsFormsApp2
                     int index = Convert.ToInt16(ClickCount);
                     richTextBox2.AppendText(listBox5.Items[index].ToString());
                     //resets the click count so it can loop again boi
-                    if (ClickCount == 2)
+                    if (ClickCount == 6)
                     {
                         ClickCount = -1;
                     }
@@ -211,6 +211,44 @@ namespace WindowsFormsApp2
                 {
 
                 }
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Multi-Press")
+            {
+                ClickCount++;
+                int index = Convert.ToInt16(ClickCount);
+                richTextBox2.AppendText(listBox6.Items[index].ToString());
+                //resets the click count so it can loop again boi
+                if (ClickCount == 6)
+                {
+                    ClickCount = -1;
+                }
+            }
+            else
+            {
+
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Multi-Press")
+            {
+                ClickCount++;
+                int index = Convert.ToInt16(ClickCount);
+                richTextBox2.AppendText(listBox7.Items[index].ToString());
+                //resets the click count so it can loop again boi
+                if (ClickCount == 6)
+                {
+                    ClickCount = -1;
+                }
+            }
+            else
+            {
+
             }
         }
     }

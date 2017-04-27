@@ -248,6 +248,7 @@
             this.button11.TabIndex = 12;
             this.button11.Text = "   6     MNO";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -258,6 +259,7 @@
             this.button12.TabIndex = 13;
             this.button12.Text = "      1       P Q R S";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
