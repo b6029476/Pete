@@ -345,7 +345,7 @@ namespace WindowsFormsApp2
 
         private void configureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            intIntervalRequired = Convert.ToInt32(My_Dialogs.InputBox("Please enter the delay value you require 1000 is equal to a 1 second delay at the present the delay is set to 500"));
+            intIntervalRequired = Convert.ToInt32(My_Dialogs.InputBox("Please enter the delay value you require 1000 is equal to a 1 second delay at the present the delay is set to "+ intIntervalRequired));
         }
     }
 }
