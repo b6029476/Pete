@@ -345,7 +345,7 @@ namespace WindowsFormsApp2
 
         private void configureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Please enter the delay value you require 1000 is equal to a 1 second delay at the present the delay is set to 500.");
+            My_Dialogs.InputBox("Please enter the delay value you require 1000 is equal to a 1 second delay at the present the delay is set to 500.");
         }
     }
 }
