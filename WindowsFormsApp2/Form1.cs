@@ -18,6 +18,9 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
         int ClickCount = -1;
+        // Timing Functionality
+        bool boolFirstVisit = true;
+        int intIntervalRequired = 500;
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "Multi-Press")
