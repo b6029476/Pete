@@ -333,6 +333,11 @@ namespace WindowsFormsApp2
         {
             richTextBox1.Rtf = richTextBox2.Rtf;// applies the user input code to the large text box
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();// restarts the application
+        }
     }
 }
 
