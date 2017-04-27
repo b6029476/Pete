@@ -312,7 +312,7 @@ namespace WindowsFormsApp2
 
         private void button19_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Multi-Press")
+            if (textBox1.Text == "Multi-Press")// as long as the text variable is that then this will occur
             {
                 ClickCount++;
                 int index = Convert.ToInt16(ClickCount);
@@ -331,7 +331,7 @@ namespace WindowsFormsApp2
 
         private void button16_Click(object sender, EventArgs e)
         {
-            richTextBox1.Rtf = richTextBox2.Rtf;
+            richTextBox1.Rtf = richTextBox2.Rtf;// applies the user input code to the large text box
         }
     }
 }
