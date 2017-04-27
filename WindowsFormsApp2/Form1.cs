@@ -328,6 +328,11 @@ namespace WindowsFormsApp2
 
             }
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Rtf = richTextBox2.Rtf;
+        }
     }
 }
 
