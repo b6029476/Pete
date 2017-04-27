@@ -317,9 +317,17 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(384, 207);
+            this.listBox1.Items.AddRange(new object[] {
+            ". ",
+            "~ ",
+            "\"",
+            " 7 ",
+            "\'",
+            " :",
+            " ;"});
+            this.listBox1.Location = new System.Drawing.Point(346, 272);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(24, 40);
+            this.listBox1.Size = new System.Drawing.Size(37, 40);
             this.listBox1.TabIndex = 23;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
