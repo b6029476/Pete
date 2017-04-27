@@ -309,6 +309,25 @@ namespace WindowsFormsApp2
 
             }
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Multi-Press")
+            {
+                ClickCount++;
+                int index = Convert.ToInt16(ClickCount);
+                richTextBox2.AppendText(listBox11.Items[index].ToString());
+                //resets the click count so it can loop again boi
+                if (ClickCount == 6)
+                {
+                    ClickCount = -1;
+                }
+            }
+            else
+            {
+
+            }
+        }
     }
 }
 
