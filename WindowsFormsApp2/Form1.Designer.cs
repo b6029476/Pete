@@ -65,6 +65,7 @@
             this.listBox8 = new System.Windows.Forms.ListBox();
             this.listBox9 = new System.Windows.Forms.ListBox();
             this.listBox10 = new System.Windows.Forms.ListBox();
+            this.listBox11 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -492,10 +493,24 @@
             this.listBox10.Size = new System.Drawing.Size(37, 40);
             this.listBox10.TabIndex = 32;
             // 
+            // listBox11
+            // 
+            this.listBox11.FormattingEnabled = true;
+            this.listBox11.ItemHeight = 12;
+            this.listBox11.Items.AddRange(new object[] {
+            "# ",
+            "- ",
+            "_"});
+            this.listBox11.Location = new System.Drawing.Point(432, 422);
+            this.listBox11.Name = "listBox11";
+            this.listBox11.Size = new System.Drawing.Size(37, 40);
+            this.listBox11.TabIndex = 33;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(578, 477);
+            this.Controls.Add(this.listBox11);
             this.Controls.Add(this.listBox10);
             this.Controls.Add(this.listBox9);
             this.Controls.Add(this.listBox8);
@@ -578,6 +593,7 @@
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.ListBox listBox9;
         private System.Windows.Forms.ListBox listBox10;
+        private System.Windows.Forms.ListBox listBox11;
     }
 }
 
