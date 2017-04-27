@@ -21,5 +21,20 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.ScrollBars = ScrollBars.Vertical;
+        }
     }
 }

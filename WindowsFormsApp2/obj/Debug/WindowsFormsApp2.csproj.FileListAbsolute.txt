@@ -1,0 +1,9 @@
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Jc300\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\Pete\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
