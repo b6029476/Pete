@@ -170,6 +170,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "7,.\'\"";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -316,6 +317,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(147, 30);
             this.richTextBox2.TabIndex = 21;
             this.richTextBox2.Text = "";
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // textBox1
             // 

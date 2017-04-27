@@ -17,12 +17,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-        int constant = 0;
-
-        // Timing Functionality
-        bool boolFirstVisit = true;
-        int intIntervalRequired = 500;
-
+        int ClickCount = -1;
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "Multi-Press")
@@ -46,6 +41,10 @@ namespace WindowsFormsApp2
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -91,19 +90,43 @@ namespace WindowsFormsApp2
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Stream myStream = null;
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
-
-            openFileDialog1.InitialDirectory = "c:\\";
-            openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-            openFileDialog1.FilterIndex = 2;
-            openFileDialog1.RestoreDirectory = true;
+            OpenFileDialog openFileDialog1 = new OpenFileDialog()
+            {
+                InitialDirectory = "c:\\",
+                Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*",
+                FilterIndex = 2,
+                RestoreDirectory = true
+            };
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {// http://stackoverflow.com/questions/13900441/c-sharp-read-txt-file-into-textbox
+            {
+                ////http://stackoverflow.com/questions/13900441/c-sharp-read-txt-file-into-textbox
                 richTextBox1.Text = File.ReadAllText(openFileDialog1.FileName);
             }
         }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Multi-Press")
+            {
+                ClickCount++;
+                int index = Convert.ToInt16(ClickCount);
+                richTextBox2.AppendText(listBox1.Items[index].ToString());
+                //resets the click count so it can loop again boi
+                if (ClickCount == 2)
+                {
+                    ClickCount = -1;
+                }
+            }
+            else
+            {
+
+            }
         }
     }
+}
+
+
+
+
+
 
 
